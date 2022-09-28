@@ -1,0 +1,33 @@
+.cabecalho {
+  background-color: #1f2235;
+  padding: 14px;
+}
+
+body {
+  background-color: #3b3d5d;
+}
+
+.cabecalho > a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+
+main {
+  padding: 20px;
+  display: flex;
+}
+
+.conteudo {
+  padding: 10px;
+  height: 300px;
+  display: inline-block;
+}
+
+.conteudo-esquerda {
+  width: 500px;
+}
+
+.conteudo-direita {
+  width: 300px;
+}

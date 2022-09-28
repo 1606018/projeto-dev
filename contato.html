@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/contato.css">
+    <script src="js/contato.js"></script>
+    <title>Contato</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <a href="index.html">HOME</a>
+        <a href="#">CONTATO</a>
+    </header>
+    <main>
+        <div class="conteudo conteudo-esquerda">
+            <div class="formulario-contato">
+                <input placeholder="Digite seu Nome" type="text" name="" id="nome">
+                <input placeholder="Digite seu E-mail" type="text" name="" id="email">
+                <textarea placeholder="Digite sua mensagem" name="" id="mensagem" cols="30" rows="10"></textarea>
+                <button onclick="validarEEnviarFormulario()" >Enviar</button>
+            </div>
+            <div id="resultado-form"></div>
+        </div>
+    </main>
+</body>
+
+</html>
